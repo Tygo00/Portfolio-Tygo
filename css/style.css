@@ -153,7 +153,8 @@ nav a{
 
 .tygo-text-two{
     font-weight: 100;
-    width: 470px;
+    font-size: 1.6vw;
+    width: 500px;
 }
 
 .meer-button{
@@ -388,15 +389,17 @@ nav a{
 input{
     margin-left: 5px;
     height: 100%;
-    width: 80%;
+    width: 100%;
     font-size: 1.1vw;
+    border-radius: 5px;
+    outline: none;
 }
 
 .box-contact{
     display: flex;
     align-self: flex-start;
     align-items: flex-start;
-    height: 500px;
+    height: 370px;
     width: 50%;
     border-radius: 20px;
     background-color: #ffffff;
@@ -407,30 +410,30 @@ input{
     gap: 5%;
 }
 
-.your-email{
-    outline: #121113 solid 2px;
-    border-radius: 5px;
-    height: 40px;
-    padding-left: 6%;
+.naam-contact{
     display: flex;
-    align-items: center;
-    margin-bottom: 30px;
+    flex-direction: row;
+    gap: 30px;
 }
 
-.send-message{
-    justify-self: center;
-    flex-direction: row;
-    text-align: left;
-    outline: #121113 solid 2px;
-    border-radius: 5px;
-    height: 200px;
-    width: 320px;
-    padding-top: 20px;
-    padding-left: 20px;
+.naam-contact-box{
+    border-radius: 30px;
+    width: 80%;
+}
+
+.bericht-box{
+    margin-top: 50px;
+}
+
+.bericht-contact-box{
+    height: 120px;
+    width: 150%;
+    border-radius: 30px;
 }
 
 .first-text-contact{
     font-size: 10vw;
+    margin: 50px;
 }
 
 .second-text-contact{
@@ -444,13 +447,12 @@ input{
     height: auto;
     width: 12%;
     outline: #121113 solid 2px;
-    background-color: #D9D9D9;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: flex-end;
     align-self: flex-end;
-    border-radius: 5px;
+    border-radius: 30px;
     margin-top: 30px;
     margin-right: 20px;
 }
@@ -460,14 +462,15 @@ input{
     justify-self: center;
     flex-direction: row;
     text-align: left;
-    outline: #121113 solid 2px;
-    border-radius: 5px;
+    outline: #121113 solid 1px;
+    border-radius: 20px;
     height: 45px;
     width: 340px;
     padding-left: 20px;
     margin-top: 30px;
     font-weight: bold;
     font-size: 1.1vw;
+    font-weight: 100;
 }
 
 a{
