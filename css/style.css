@@ -213,6 +213,14 @@ nav a{
     border-radius: 30px;
 }
 
+.code-lezen{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-decoration: underline ;
+    color: #EFEFEF;
+}
+
 .project-top-text{
     display: flex;
     justify-self: center;
@@ -272,38 +280,35 @@ nav a{
 
 .talen-box-one{
     color: #353D2F;
-    align-self: center;
+    align-content: center;
     font-size: 1.3vw;
     width: 25%;
-    height: auto;
+    height: 80%;
     background-color: #F8F8F8;
     padding: 20px;
     border-radius: 20px;
-    align-self: flex-start;
 }
 
 .talen-box-two{
     color: #353D2F;
-    align-self: center;
+    align-content: center;
     font-size: 1.3vw;
     width: 25%;
-    height: auto;
+    height: 80%;
     background-color: #F8F8F8;
     padding: 20px;
     border-radius: 20px;
-    align-self: flex-start;
 }
 
 .talen-box-three{
     color: #353D2F;
-    align-self: center;
+    align-content: center;
     font-size: 1.3vw;
     width: 25%;
-    height: auto;
+    height: 80%;
     background-color: #F8F8F8;
     padding: 20px;
     border-radius: 20px;
-    align-self: flex-start;
 }
 
 .wie-ben-ik{
@@ -381,8 +386,9 @@ nav a{
 }
 
 .contact{
-    padding-left: 5%;
-    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
     font-weight: 100;
 }
 
@@ -397,8 +403,9 @@ input{
 
 .box-contact{
     display: flex;
-    align-self: flex-start;
+    align-self: flex-end;
     align-items: flex-start;
+    margin: 50px;
     height: 370px;
     width: 50%;
     border-radius: 20px;
@@ -419,6 +426,7 @@ input{
 .naam-contact-box{
     border-radius: 30px;
     width: 80%;
+    padding-left: 10px;
 }
 
 .bericht-box{
@@ -432,8 +440,7 @@ input{
 }
 
 .first-text-contact{
-    font-size: 10vw;
-    margin: 50px;
+    font-size: 7vw;
 }
 
 .second-text-contact{
